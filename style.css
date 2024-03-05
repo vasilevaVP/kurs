@@ -29,14 +29,17 @@ body{
 }
 .nav li{
     color: var(--white);
+    list-style: none;
+    font: 500 16px Raleway;
 }
 
 section{
-    padding: 40px 135px 20px;
+    padding: 40px 135px 800px;
     background-color: #10B582;
     max-width: 1920px;
     max-height: 800px;
     margin: 0 auto;
+ 
    
 }
 section h1{
@@ -44,15 +47,35 @@ section h1{
     font: 500 58px/120% Raleway;
     color:var(--white);
     text-align: center;
-}
 
-.text{
+}
+section p{
     max-width: 542px;
+    font: 400 16px/140% Raleway;
+    color:var(--white);
+    text-align: center;
+
 }
 
-.imgmain{
+
+
+.main{
+    display: flex;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
+   width: 542px;
+   gap: 44px;
+   margin-top: 156px;
+   
 }
+.image{
+    align-items: center;
+    justify-content: center;
+    padding: 0 186 0 186px;
+}
+
+
 
 
 section2{
@@ -105,12 +128,23 @@ section4{
     color:var(--white);
     text-align: left;
 }
-.txt{
- 
-}
+
 section5{
-    padding: 40px 135px 20px;;
+    padding: 40px 135px 20px;
     max-width: 1920px;
     max-height: 602px;
     margin: 0 auto; 
+}
+.cards{
+    display: flex;
+    padding: 40px 135px 20px;
+}
+
+footer{
+display: flex;
+}
+
+.foonav{
+    display: flex;
+    gap: 31px;
 }
