@@ -7,7 +7,7 @@ body{
     --orage: #FA9F42;
 
     --h1: 500 58px/120% Raleway;
-    --h2: 
+    --p:400 16px/140% Raleway;
 }
 .nav{
 
@@ -34,7 +34,7 @@ body{
 }
 
 section{
-    padding: 40px 135px 800px;
+    padding: 40px 135px 212px;
     background-color: #10B582;
     max-width: 1920px;
     max-height: 800px;
@@ -47,17 +47,34 @@ section h1{
     font: 500 58px/120% Raleway;
     color:var(--white);
     text-align: center;
+    margin: 40px 0 20px 0
 
 }
 section p{
-    max-width: 542px;
-    font: 400 16px/140% Raleway;
+    padding: 0;
+    max-width: 400px;
+    font: var(--p);
     color:var(--white);
     text-align: center;
-
+    margin-left: 82px;
+}
+section button{
+    width: 230px;
+    height: 56px;
+    margin-top: 60px;
+    font: var(--p);
+    background-color:var(--orage);
+    border: none;
+    color: var(--white);
+    border-radius: 0 20px 0 20px ;
 }
 
-
+.image{
+    margin-left: 186px; 
+}
+.button{
+    margin-left: 156px;
+}
 
 .main{
     display: flex;
@@ -68,6 +85,9 @@ section p{
    gap: 44px;
    margin-top: 156px;
    
+}
+.text{
+    width: 542px;
 }
 .image{
     align-items: center;
@@ -83,19 +103,28 @@ section2{
     max-height: 800px;
     margin: 0 auto;
 }
+section2 p{
+    width: 270px;
+    font: 400 14px/130% Raleway;
+    text-align: center;
+    margin-top: 15px;
+  
+}
 h1{
     max-width: 542px;
     font: 500 58px/120% Raleway;
     color:var(--green);
     text-align: center;
+    margin: 0 auto;
 }
 .numbers{
     display: flex;
-    padding: 40px 135px 20px;
+    padding: 120px 135px 20px;
+    gap: 30px;
 }
 
 section3{
-    padding: 40px 135px 20px;
+    padding: 148px 135px 20px;
     max-width: 1920px;
     max-height: 800px;
     margin: 0 auto;
@@ -111,7 +140,20 @@ section3{
     color:var(--green);
     text-align: center; 
 }
-
+.textbox2 p{
+    font: var(--p);
+    margin-bottom: 0;
+}
+section3 button{
+    width: 230px;
+    height: 56px;
+    margin-top: 60px;
+    font: var(--p);
+    background-color:var(--green);
+    border: none;
+    color: var(--white);
+    border-radius: 0 20px 0 20px ;
+}
 section4{
     display: flex;
     padding: 40px 135px 20px;
