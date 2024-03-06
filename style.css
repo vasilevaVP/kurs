@@ -7,7 +7,7 @@ body{
     --orage: #FA9F42;
 
     --h1: 500 58px/120% Raleway;
-    --p:400 16px/140% Raleway;
+    --p:400 16px/150% Raleway;
 }
 .nav{
 
@@ -35,7 +35,7 @@ body{
 
 section{
     padding: 40px 135px 212px;
-    background-color: #10B582;
+    background-color: var(--green);
     max-width: 1920px;
     max-height: 800px;
     margin: 0 auto;
@@ -67,14 +67,13 @@ section button{
     border: none;
     color: var(--white);
     border-radius: 0 20px 0 20px ;
+    margin-left: 156px;
 }
 
 .image{
     margin-left: 186px; 
 }
-.button{
-    margin-left: 156px;
-}
+
 
 .main{
     display: flex;
@@ -153,22 +152,46 @@ section3 button{
     border: none;
     color: var(--white);
     border-radius: 0 20px 0 20px ;
+    margin-bottom: 150px;
 }
 section4{
     display: flex;
-    padding: 40px 135px 20px;
-    background-color: #10B582;
+    padding: 120px 135px 120px;
+    background-color: var(--green);
     max-width: 1920px;
     max-height: 602px;
     margin: 0 auto; 
     gap: 100px;
+    margin-bottom: 150px;
+}
+.txt p{
+    font: var(--p);
+    width: 478px;
+    color: var(--white);
+    
+}
+section4 button{
+    width: 230px;
+    height: 56px;
+    margin-top: 50px;
+    font: var(--p);
+    background-color:var(--orage);
+    border: none;
+    color: var(--white);
+    border-radius: 0 20px 0 20px ;
 }
 
+.txt h1{
+    margin-left: 0;
+}
 .txt h1{
     max-width: 542px;
     font: 500 58px/120% Raleway;
     color:var(--white);
     text-align: left;
+}
+.txt p{
+    margin-bottom: 0;
 }
 
 section5{
@@ -178,15 +201,36 @@ section5{
     margin: 0 auto; 
 }
 .cards{
+    gap: 30px;
     display: flex;
     padding: 40px 135px 20px;
 }
 
 footer{
+    margin-top: 120px;
 display: flex;
+padding: 40px 135px 20px;
 }
 
 .foonav{
     display: flex;
-    gap: 31px;
+    gap: 40px;
+    margin-left: 200px;
+    font: var(--p);
+}
+.foonav p{
+    font: 500 16px/150% Raleway;
+}
+footer ul{
+    margin-top: 0;
+}
+ul p{
+    margin-top: 0;
+}
+ul li{
+    list-style: none; 
+    margin-bottom: 10px;  
+}
+.ss{
+    margin-top: 40px;
 }
